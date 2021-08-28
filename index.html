@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative</title>
+<style>
+.maincontainer{
+    margin:20px 20px 20px 20px;
+    width: 920px;
+    height: 666px;
+    border-color: white;
+    border-style: solid;
+    box-shadow: 0px 0px 7px rgb(225, 150, 238);
+    background-color: cadetblue;
+    background-image: url("https://www.wallpaperuse.com/wallp/25-250576_m.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: 1000px;
+}
+.maindiv{
+    margin:20px 20px 20px 20px;
+    padding:10px 20px 20px 20px;
+    border-width: 1px;
+    clip-path: polygon(21% 0, 55% 48%, 22% 100%, 0 100%, 0 0);
+    background-color: rgba(137, 43, 226, 0.493);
+    height: 500px;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: block;
+    float: right;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family:cursive;
+    color:white;
+}
+li:hover{
+    font-size: 22px;
+    color: rgb(67, 5, 124);
+}
+.active{
+    font-size: 22px;
+    color: rgb(67, 5, 124);
+}
+.menu{
+    border-width: 1px;
+    border-style: none;
+
+    background-color: rgba(9, 8, 10, 0.267);
+    height: 60px;
+    margin: 8px 8px 8px 8px;
+}
+h1{
+    font-family:cursive;
+    position:absolute;
+    top:30%;
+    color: rgba(255, 255, 255, 0.685);
+}
+p{
+    font-family:cursive;
+    position:absolute;
+    top:50%;
+    color: rgba(255, 255, 255, 0.685);
+}
+.tour{
+    position: absolute;
+    top:60%;
+    left:65%;
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: rgb(14, 11, 2);
+    border-radius: 7px;
+    font-size: 18px;
+    font-family: cursive;
+    padding:5px 10px 10px 10px;
+    border-style: none;
+}
+.tour:hover{
+    font-size: 20px;
+}
+.input1{
+    border-width: 1px;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 40%;
+    left: 65%;
+
+}
+input{
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+}
+.input2{
+    border-width: 1px;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    
+}
+::placeholder{
+    color: white;
+}
+</style>
+</head>
+<body>
+<div class="maincontainer">
+    <div class="menu">
+        <ul> 
+            <li >About</li>
+            <li>Creative</li>
+            <li>Plan</li>
+            <li class="active">Discover</li>
+          
+        </ul>
+    </div>
+    <br>
+    <div class="maindiv">
+        <h1>Welcome to our <br>creative side!</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br>
+           Sit fuga porro illum est dolorem, voluptatem harum voluptatibus<br>
+           quisquam sequi officiis possimus adipisci modi.<br>
+           Enim praesentium et quibusdam quo impedit maiores.
+        </p>
+        
+    </div>
+    <input type="text" class="input1" placeholder="Enter ID"></input>
+    <input type="password" class="input2"  placeholder="Enter password"></input>
+    <button class="tour">Take a Tour</button>
+</div>
+</body>
+</html>
